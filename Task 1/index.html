@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/779f50c835.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>TODO List</title>
+  </head>
+  <body>
+    <section class="firstpart">
+      <h1>Todo App</h1>
+
+      <div id="first">
+        <input
+          type="text"
+          id="inputTask"
+          name="name"
+          placeholder="Add your new todo"
+        />
+
+        <button onclick="addTodo()">
+          <i class="fa-solid fa-plus" style="color: #e8ecf3"></i>
+        </button>
+    
+        <ul id="list"></ul>
+
+
+      </div>
+
+      <div class="btn2">
+        <button onclick="DeleteAll()">Clear All</button>
+      </div>
+
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
