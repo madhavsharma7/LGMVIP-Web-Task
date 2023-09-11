@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './styles.css';
+import './App.css';
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div>
       <nav>
-        <h1>Lets Grow More</h1>
+        <h1>Interviewcheck</h1>
         <button onClick={getUsersData} disabled={loading}>
           Get Users
         </button>

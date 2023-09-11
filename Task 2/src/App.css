@@ -2,11 +2,11 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #505050;
+    background-color: grey;
   }
   
   nav {
-    background: #7f7fdc;
+    background: black;
     color: #fff;
     padding: 1rem;
     display: flex;
